@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+.header {
+
+    height: 34px;
+    width: 100vw;
+    background-color: rgba(85, 85, 85, 0.5);
+    line-height: 30px;
+    color: rgb(34, 34, 34);
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.header-right-bloc {
+    margin: 2px 0;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.link {
+    display: flex;
+    padding-right: 10px;
+    font-size: 19px;
+    font-weight: 400;
+    text-align: left;
+    text-decoration-color: rgb(238, 238, 238);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    color: rgb(238, 238, 238);
+
+}
+
+.container {
+    padding: 0 2% 0;
+    margin: 0 auto;
+    height: calc(100vh - 34px);
+}
+
+.container-data {
+    width: 50%;
+    height: 70%;
+    padding: 50px 0 20px 0;
+}
+
+.title {
+    margin: 19px 0;
+    padding-top: 19px;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: normal;
+    text-align: left;
+    margin-block-end: 19px;
+    margin-block-start: 19px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    color: white;
+}
+
+.subtitle {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+    color: white;
+}
+
+.subtitle a {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: normal;
+    text-align: left;
+    text-decoration-color: rgb(255, 255, 255);
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.data {
+    padding: 10% 0;
+    display: flex;
+}
+
+.data-left {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    flex-direction: column;
+}
+
+.data-right {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    flex-direction: column;
+}
+
+.marsDate {
+    font-size: 34.2px;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    color: white;
+}
+
+.earthDate {
+    font-size: 28.5px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    color: white;
+}
+
+
